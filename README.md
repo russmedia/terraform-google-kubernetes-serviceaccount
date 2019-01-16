@@ -12,7 +12,7 @@ e.g.: **serviceaccounts.tf**
 ```hcl
 module "cloudsql-proxy" {
   name        = "cloudsql-proxy"
-  source      = "github.com/russmedia/terraform-google-kubernetes-cluster?ref=0.1.0"
+  source      = "github.com/russmedia/terraform-google-kubernetes-serviceaccount?ref=0.1.0"
   project     = "your-google-project"
   role        = "roles/cloudsql.client"
   environment = "production"

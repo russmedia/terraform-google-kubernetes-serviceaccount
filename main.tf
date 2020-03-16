@@ -21,7 +21,7 @@ resource "kubernetes_secret" "serviceaccount-credentials" {
   }
 
   data = {
-    credentials.json = base64decode(google_service_account_key.account_key.private_key)
+    "credentials.json" = base64decode(google_service_account_key.account_key.private_key)
   }
 
   type = "kubernetes.io/credentials"

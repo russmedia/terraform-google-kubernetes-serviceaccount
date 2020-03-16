@@ -22,3 +22,4 @@ variable "environment" {
 variable "namespace" {
   description = "kubernetes namespace to install secrets in"
 }
+

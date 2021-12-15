@@ -1,8 +1,3 @@
-> ## This Repo Is No Longer Maintained
-> 
-> Please consider migrating to official terraform-google-kubernetes-engine module:  https://github.com/terraform-google-modules/terraform-google-kubernetes-engine.
-
-
 
 # terraform-google-kubernetes-serviceaccount
 Terraform module to create a service account on google cloud, a json key and push it as a secret into kubernetes cluster.
